@@ -7,18 +7,16 @@ The higher order component Promised decorates a component class to load props as
 
 These are combined in the main.js entry point to load country information from HTTP+JSON APIs.
 
-
 Building
 --------
 
 Prerequisites:
 
- * node and npm
- * Gnu Make & the standard Unix command-line utilities
- * jq
+* node and npm
+* Gnu Make & the standard Unix command-line utilities
+* jq
 
 On MacOS X these can all be installed with Homebrew.
-
 
 To build:
 
@@ -30,6 +28,5 @@ To run:
 Execute the command:
 
     % make available
-	
+ 
 Then open [http://localhost:8000/](http://localhost:8000/) in a modern web browser.
-
